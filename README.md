@@ -10,7 +10,7 @@ npm install jay-utils
 
 ## API
 
-### 类型判断
+### 1.类型判断
 
 #### isObject
 
@@ -24,11 +24,11 @@ npm install jay-utils
 
 #### isBoolean
 
-### 对象扩展
+### 2.对象扩展
 
 #### copy
 
-### 其他
+### 3.其他
 
 #### saveLocal(name, value)
 保存本地localStorage

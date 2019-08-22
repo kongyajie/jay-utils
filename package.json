@@ -3,10 +3,9 @@
   "version": "0.0.10-0",
   "description": "A collection of useful javascript functions",
   "main": "build/utils.js",
-  "scripts": {
-    "start": "NODE_ENV=development webpack",
-    "build": "NODE_ENV=production webpack",
-    "test": "mocha"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kongyajie/jay-utils.git"
   },
   "keywords": [
     "js-utils",
@@ -15,6 +14,14 @@
   ],
   "author": "AaronKong",
   "license": "The MIT License",
+  "bugs": {
+    "url": "https://github.com/kongyajie/jay-utils/issues"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development webpack",
+    "build": "NODE_ENV=production webpack",
+    "test": "mocha"
+  },
   "dependencies": {},
   "devDependencies": {
     "mocha": "^6.2.0",

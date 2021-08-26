@@ -18,14 +18,10 @@
     "url": "https://github.com/kongyajie/jay-utils/issues"
   },
   "scripts": {
-    "start": "NODE_ENV=development webpack",
-    "build": "NODE_ENV=production webpack",
-    "test": "mocha"
+    "build": "rollup --config"
   },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^6.2.0",
-    "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7"
+    "rollup": "^2.56.3"
   }
 }
